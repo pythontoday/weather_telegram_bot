@@ -1,0 +1,10 @@
+licznik_ujemnych = 0
+
+n = int(input("Podaj liczbę n: "))
+
+for i in range(n):
+    liczba = int(input("Podaj liczbę: "))
+    if liczba < 0:
+        licznik_ujemnych += 1
+
+print("Liczba liczb ujemnych w ciągu: ", licznik_ujemnych)
